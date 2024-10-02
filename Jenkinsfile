@@ -10,7 +10,7 @@ pipeline {
             steps {
                 script {
                     echo 'Building the code using Maven'
-                    // Example: sh 'mvn clean packagee'
+                    // Example: sh 'mvn clean package'
                 }
             }
         }
