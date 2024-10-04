@@ -9,8 +9,8 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    echo 'Building the code using Mavenn'
-                    // Example: sh 'mvn clean packagee'
+                    echo 'Building the code using Maven'
+                    // Example: sh 'mvn clean package'
                 }
             }
         }
